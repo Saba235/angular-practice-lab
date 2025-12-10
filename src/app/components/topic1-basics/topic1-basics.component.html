@@ -1,0 +1,17 @@
+
+<!--Interpolation-->
+<div>
+    <p>Your name is: {{ name }}</p>
+</div>
+
+<!--Property binding-->
+    <input [value]="name">
+
+
+<!--Event binding-->
+<button (click)="changeName()">Change Name</button>
+
+<!--Two-way binding-->
+<br><br>
+<div><input [(ngModel)]="username" placeholder="Enter username">
+<p>You typed: {{ username }}</p></div>
