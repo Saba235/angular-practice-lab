@@ -1,3 +1,5 @@
+// Practicing Angular basics – interpolation, ngFor, component communication
+
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 

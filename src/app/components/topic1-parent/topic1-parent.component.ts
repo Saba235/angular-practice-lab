@@ -1,3 +1,5 @@
+// Practicing Angular  – interpolation, ngFor, component communication
+
 import { Component } from '@angular/core';
 import { Topic1ChildComponent } from "../topic1-child/topic1-child.component";
 import { CommonModule } from '@angular/common';
