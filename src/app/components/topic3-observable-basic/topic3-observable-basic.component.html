@@ -1,0 +1,11 @@
+<h3>Observable Execution (UI + Console)</h3>
+
+<p><strong>Check browser console AND UI below</strong></p>
+
+<button (click)="unsubscribeManually()">Unsubscribe</button>
+
+<ul>
+  <li *ngFor="let log of logs">
+    {{ log }}
+  </li>
+</ul>
