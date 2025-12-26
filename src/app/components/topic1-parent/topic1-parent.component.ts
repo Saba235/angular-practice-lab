@@ -15,4 +15,7 @@ export class Topic1ParentComponent {
 users = ["Saba"];
 selectedUser = '';
 
+onUserSelected(user: string) {
+    this.selectedUser = user;
+}
 }
