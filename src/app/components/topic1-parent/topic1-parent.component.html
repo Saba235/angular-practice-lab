@@ -1,8 +1,0 @@
-<div *ngFor="let u of users">
-  <app-topic1-child 
-    [user]="u" 
-    (userSelected)="selectedUser = $event">
-  </app-topic1-child>
-</div>
-
-<p>Selected User: {{ selectedUser }}</p>
