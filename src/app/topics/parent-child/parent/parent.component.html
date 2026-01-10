@@ -1,0 +1,14 @@
+<h2>Parent Component</h2>
+
+<app-child [messageFromParent]="parentMessage" (notifyParent)="receiveMessage($event)">
+</app-child>
+
+<p *ngIf="childResponse">
+    <strong>Message from Child:</strong> {{ childResponse }}
+</p>
+
+<div style="padding-top: 10px;">
+    <button (click)="resetChild()">
+        Reset Child from Parent
+    </button>
+</div>
