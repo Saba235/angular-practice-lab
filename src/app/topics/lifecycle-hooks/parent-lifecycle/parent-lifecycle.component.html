@@ -1,0 +1,11 @@
+<h2>Parent Lifecycle Component</h2>
+
+<button (click)="updateData()">Update Data</button>
+<button (click)="toggleChild()">
+  {{ showChild ? 'Destroy Child' : 'Create Child' }}
+</button>
+
+<app-child-lifecycle
+  *ngIf="showChild"
+  [userData]="parentData">
+</app-child-lifecycle>
